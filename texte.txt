@@ -1,0 +1,12 @@
+SEO
+
+- Arborescence
+- Sémantique (article, session, ..)
+- 1 seul H1
+- META (title, description, ..)
+- Alt 
+- Mots clés, contenu ..
+
+LIENS DU FOOTER:
+
+https://www.bmw.fr/fr/tous-les-modeles/x-series/X1/2019/bmw-x1-sinformer.html#tab-0
