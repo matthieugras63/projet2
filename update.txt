@@ -2,3 +2,8 @@ Thu 07/18
 
 - Wireframe desktop size
 - pictures recovered from brief
+
+Fri 07/19
+
+- HTML skeleton written
+- Header begun / CSS first properties written
