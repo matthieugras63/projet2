@@ -10,3 +10,13 @@ SEO
 LIENS DU FOOTER:
 
 https://www.bmw.fr/fr/tous-les-modeles/x-series/X1/2019/bmw-x1-sinformer.html#tab-0
+
+
+Indications du Webdesigner:
+
+- Rajouter code postal dans le formulaire
+- Centré
+- les 4 sont nettes de base, ouverture sur une autre page (<a href="" target="_blank"
+- connecter formulaire avec mailchimp -> le formulaire crééra une liste d'abonnées
+- mettre des vrais liens dans le footer, en target blank
+- 
