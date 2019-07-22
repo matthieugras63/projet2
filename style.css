@@ -26,35 +26,51 @@ header img{
   width: 100%;
 }
 
+/*Logo placed top/center*/
+
 .logo{
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex:1;
 }
+
 
 #resize-logo{
   width: 8%;
   border:none;
-  
 }
+
+/*Relative disposition for the major div in header + form*/
+
+.relative{
+  position: relative;
+}
+
+/*Texts disposed in column*/
 
 .title-header{
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex:1;
 }
 
 .title-header h1{
   font-size: 56pt;
   font-weight: bold;
-  max-width: 90%;
   line-height: 100%;
-  padding-top: 125px;
+  margin: 0;
 }
 
 .title-header h2{
   font-size:40pt;
-  width: 100%;
-  margin-top: 0;
+  margin:0;
 }
+
+
 
 #button-trial{
   border:none;
@@ -72,11 +88,19 @@ header img{
   width: 100%;
 }
 
+/*Will be the div that will go over the img. 3 columns for logo/title/button.
+Then, width:100% so flex can be effective properly.
+Finally, box-sizing + height:100% to let the div occupy the same space as the image below*/
+
 .over-img{
   display: flex;
   flex-direction: column;
-  background-image: url('images/header.png');
-  background-size: 100%;
+  width: 100%;
+  box-sizing: content-box;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
 
@@ -84,6 +108,6 @@ header img{
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  flex:1;
 }
-
 
