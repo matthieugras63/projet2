@@ -7,3 +7,7 @@ Fri 07/19
 
 - HTML skeleton written
 - Header begun / CSS first properties written
+
+Mon 07/22
+
+- Worked on header. Found how to superimpose text and images
