@@ -30,7 +30,6 @@ header img{
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  flex:1;
 }
 
 #resize-logo{
@@ -39,7 +38,6 @@ header img{
 }
 
 .title-header{
-  flex:1;
   color: white;
 }
 
@@ -76,16 +74,15 @@ header img{
 .over-img{
   display: flex;
   flex-direction: column;
-  padding: 0 50px;
-  margin-top: -856.734px;
-  height: 851.734px;
+  background-image: url('images/header.png');
+  background-size: 100%;
 }
+
 
 .button{
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  flex:1;
 }
 
 
