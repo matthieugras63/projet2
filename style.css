@@ -26,36 +26,66 @@ header img{
   width: 100%;
 }
 
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex:1;
+}
+
 #resize-logo{
   width: 8%;
+  border:none;
+}
+
+.title-header{
+  flex:1;
+  color: white;
 }
 
 .title-header h1{
-  font-size: 85pt;
+  font-size: 56pt;
   font-weight: bold;
+  max-width: 90%;
+  line-height: 100%;
+  padding-top: 125px;
 }
 
 .title-header h2{
-  font-size: 64pt;
+  font-size:40pt;
+  width: 100%;
+  margin-top: 0;
 }
 
 #button-trial{
   border:none;
   background: white;
+  padding: 0;
+  margin: 0;
 }
 
 .button-header{
   display: flex;
   align-items: center;
   font-size: 20pt;
-  font-weight: bold;
-  margin:10px;
-  padding:10px;
-  border:1px solid black;
+  padding: 8px 5px;
+  border: none;
+  width: 100%;
 }
 
-.button-header img{
+.over-img{
   display: flex;
-  align-items:
+  flex-direction: column;
+  padding: 0 50px;
+  margin-top: -856.734px;
+  height: 851.734px;
 }
+
+.button{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex:1;
+}
+
 
