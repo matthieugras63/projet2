@@ -197,10 +197,6 @@ box-sizing: border-box;
   flex-direction: column;
 }
 
-<<<<<<< HEAD
-/*third-row*/
-
-=======
 .second-row p{
   font-size: 24pt;
 }
@@ -216,4 +212,3 @@ box-sizing: border-box;
 .space-between .text-right{
   flex:1;
 }
->>>>>>> refs/remotes/origin/master
