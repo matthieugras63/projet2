@@ -76,7 +76,9 @@ header img{
   display: flex;
   flex-direction: column;
   background-image: url('images/header.png');
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 
