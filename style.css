@@ -145,14 +145,14 @@ Finally, box-sizing + height:100% to let the div occupy the same space as the im
   display: flex;
 }
 
-.first-row, .second-row{
+.first-row, .second-row, .third-row{
   width: 100%;
   margin:0;
   padding: 0;
   height: auto;
 }
 
-.first-row article, .first-row div, .second-row div, .second-row article{
+.first-row article, .first-row div, .second-row div, .second-row article, .third-row div, .third-row article{
   flex:1;
 }
 
@@ -192,3 +192,6 @@ box-sizing: border-box;
   display: flex;
   flex-direction: column;
 }
+
+/*third-row*/
+
