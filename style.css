@@ -18,6 +18,8 @@ body{
   font-family: 'Lato', sans-serif;
 }
 
+/*Header*/
+
 header{
   width: 100%;
 }
@@ -25,6 +27,7 @@ header{
 header img{
   width: 100%;
 }
+
 
 /*Logo placed top/center*/
 
@@ -49,24 +52,44 @@ header img{
 
 /*Texts disposed in column*/
 
+.header-img{
+  margin-bottom: -5px; /*To delete 5px margin between the 2 parts*/
+}
+
 .title-header{
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  flex:1;
+  flex:4; /*That lign will occupy (4/(4+1+1)) = 4/6 = 66% of the available space)*/
+  padding-left: 75px;
+/*  padding-top: 180px;*/
 }
 
+
+
+
 .title-header h1{
-  font-size: 56pt;
+  font-size: 80pt;
+  max-width: 80%;
   font-weight: bold;
   line-height: 100%;
   margin: 0;
 }
 
+/*The part below is for test in browser. As long at it is considered as a device width, we have to use "max-device-width"
+Indeed, due to "80pt" font size, the button is "pushed" by the title*/
+
+@media screen and (max-device-width: 900px){
+
+  .title-header h1{
+    font-size: 50pt;
+  }
+}
+
 .title-header h2{
-  font-size:40pt;
+  font-size:59pt;
   margin:0;
 }
 
@@ -109,5 +132,63 @@ Finally, box-sizing + height:100% to let the div occupy the same space as the im
   justify-content: flex-end;
   align-items: flex-end;
   flex:1;
+  padding-right: 72px;
+  margin-bottom: 4px;
+
 }
 
+/*main*/
+
+/*Common to all rows*/
+
+.flex{
+  display: flex;
+}
+
+.first-row, .second-row{
+  width: 100%;
+  margin:0;
+  padding: 0;
+  height: auto;
+}
+
+.first-row article, .first-row div, .second-row div, .second-row article{
+  flex:1;
+}
+
+.first-row-img img, .second-row img{
+  width: 100%;
+  margin-bottom: -4px;
+}
+
+.first-row article, .second-row article{
+box-sizing: border-box;
+}
+
+
+/*first-row*/
+
+.first-row h1{
+  font-size: 48pt;
+  margin:0;
+}
+
+.first-row p{
+  font-size: 24pt;
+}
+
+.first-row p:first-of-type{
+  font-size: 20pt;
+  margin: 0;
+}
+
+.first-row-text{
+ padding: 20px 50px 0px 80px;
+}
+
+/*second-row*/
+
+.second-row article{
+  display: flex;
+  flex-direction: column;
+}
