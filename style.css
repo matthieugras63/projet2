@@ -189,16 +189,20 @@ box-sizing: border-box;
 /*second-row*/
 
 .second-row-text{
-  width: 100%;
+  padding: 100px 75px 60px 75px;
+
 }
 
 .second-row article{
   display: flex;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
 .second-row p{
   font-size: 24pt;
+  flex: 1;
 }
 
 .space-between{
@@ -206,9 +210,21 @@ box-sizing: border-box;
 }
 
 .space-between .text-left{
-  flex:4;
+  flex:7;
 }
 
 .space-between .text-right{
-  flex:1;
+  flex:4;
+  justify-content: flex-end;
 }
+
+.border-top{
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
+
+.space-between p{
+  margin: 0;
+  padding-bottom: 20px;
+}
+
