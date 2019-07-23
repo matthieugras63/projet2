@@ -188,7 +188,27 @@ box-sizing: border-box;
 
 /*second-row*/
 
+.second-row-text{
+  width: 100%;
+}
+
 .second-row article{
   display: flex;
   flex-direction: column;
+}
+
+.second-row p{
+  font-size: 24pt;
+}
+
+.space-between{
+ justify-content: space-between;
+}
+
+.space-between .text-left{
+  flex:4;
+}
+
+.space-between .text-right{
+  flex:1;
 }
