@@ -118,19 +118,12 @@ Finally, box-sizing + height:100% to let the div occupy the same space as the im
 .over-img{
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
-  background-image: url('images/header.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-=======
   width: 100%;
   box-sizing: content-box;
   height: 100%;
   position: absolute;
   top: 0px;
   left: 0px;
->>>>>>> abb677be2c5b56ebfdad03974b36567b6eb16c59
 }
 
 
