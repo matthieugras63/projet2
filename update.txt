@@ -11,3 +11,7 @@ Fri 07/19
 Mon 07/22
 
 - Worked on header. Found how to superimpose text and images
+
+Tue 07/23
+
+- Header, first row and second row finished. Third row begun
