@@ -50,7 +50,6 @@ header img{
   position: relative;
 }
 
-/*Texts disposed in column*/
 
 .header-img{
   margin-bottom: -5px; /*To delete 5px margin between the 2 parts*/
@@ -67,9 +66,6 @@ header img{
 /*  padding-top: 180px;*/
 }
 
-
-
-
 .title-header h1{
   font-size: 80pt;
   max-width: 80%;
@@ -78,7 +74,7 @@ header img{
   margin: 0;
 }
 
-/*The part below is for test in browser. As long at it is considered as a device width, we have to use "max-device-width"
+/*The part below is for test in browser. As long as it is considered as a device width, we have to use "max-device-width" instead of "max-width" which correspond to browser window.
 Indeed, due to "80pt" font size, the button is "pushed" by the title*/
 
 @media screen and (max-device-width: 900px){
@@ -195,7 +191,6 @@ box-sizing: border-box;
 
 .second-row article{
   display: flex;
-  flex-direction: column;
   margin: 0;
   padding: 0;
 }
@@ -210,7 +205,7 @@ box-sizing: border-box;
 }
 
 .space-between .text-left{
-  flex:7;
+  flex:11;
 }
 
 .space-between .text-right{
