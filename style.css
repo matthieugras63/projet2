@@ -228,3 +228,47 @@ box-sizing: border-box;
   padding-bottom: 20px;
 }
 
+
+/*third-row*/
+
+/*bloc pictures*/
+.third-row img{
+  width: 100%;
+  
+}
+
+.third-row a{
+  width: 50%;
+  margin-bottom: -4px;
+}
+.bloc-top{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bloc-top img{
+  opacity: .4;
+}
+.bloc-top img:hover {
+opacity: 1;
+}
+
+
+/*Bloc text*/
+.third-row h1{
+  font-size: 48pt;
+  margin:0;
+}
+
+.third-row p{
+  font-size: 24pt;
+}
+
+.third-row p:first-of-type{
+  font-size: 20pt;
+  margin: 0;
+}
+
+.third-row-text{
+ padding: 100px 80px 0px 80px;
+}
