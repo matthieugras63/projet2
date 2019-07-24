@@ -336,6 +336,7 @@ footer{
   flex-direction: row;
   display: flex;
   padding: 20px 100px;
+  margin-top: -2px;
 }
 footer h3, a{
   color: white;
@@ -371,7 +372,4 @@ a{
 
 .picto a{
 padding: 10px;
-
-
 }
-
