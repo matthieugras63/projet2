@@ -102,7 +102,7 @@ Indeed, due to "80pt" font size, the button is "pushed" by the title*/
   display: flex;
   align-items: center;
   font-size: 20pt;
-  padding: 8px 5px;
+  padding: 8px 0px 8px 5px;
   border: none;
   width: 100%;
 }

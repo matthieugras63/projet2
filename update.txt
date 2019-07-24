@@ -15,3 +15,7 @@ Mon 07/22
 Tue 07/23
 
 - Header, first row and second row finished. Third row begun
+
+Wed 07/24
+
+- HTML / CSS nearly finished. Some miscellaneous updates are needed, like padding or link changes
