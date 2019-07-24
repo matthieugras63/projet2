@@ -51,7 +51,7 @@ header img{
 }
 
 
-.header-img{
+.adjust-img,{
   margin-bottom: -5px; /*To delete 5px margin between the 2 parts*/
 }
 
@@ -185,7 +185,11 @@ box-sizing: border-box;
 /*second-row*/
 
 .second-row-text{
-  padding: 100px 75px 60px 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  padding:60px;
 
 }
 
@@ -202,6 +206,7 @@ box-sizing: border-box;
 
 .space-between{
  justify-content: space-between;
+ width: 100%;
 }
 
 .space-between .text-left{
@@ -229,7 +234,7 @@ box-sizing: border-box;
 /*bloc pictures*/
 .third-row img{
   width: 100%;
-  
+
 }
 
 .third-row a{
