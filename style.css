@@ -51,7 +51,7 @@ header img{
 }
 
 
-.adjust-img,{
+.adjust-img{
   margin-bottom: -5px; /*To delete 5px margin between the 2 parts*/
 }
 
@@ -120,6 +120,7 @@ Finally, box-sizing + height:100% to let the div occupy the same space as the im
   position: absolute;
   top: 0px;
   left: 0px;
+  margin-bottom: -4px;
 }
 
 
@@ -305,8 +306,6 @@ form input{
   width: 50%;
   padding: 10px;
   font-family: 'Playfair Display', serif;
-
-
 }
 
 .text-last-row p:first-of-type{
@@ -371,7 +370,5 @@ a{
 
 .picto a{
 padding: 10px;
-
-
 }
 
