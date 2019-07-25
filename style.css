@@ -364,7 +364,7 @@ form input{
   color: blue;
 }
 
-#CGU:visited{
+#CGU-check a:visited{
   color:red;
 }
 
