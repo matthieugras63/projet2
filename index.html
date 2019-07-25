@@ -110,11 +110,12 @@
             <div class="form-div">
               <form method="post" action="">
                 <p>
-                  <input type="text" placeholder="Prénom*" required>
+                  <input type="text" placeholder="Prénom*" id="prenom" required>
                   <input type="text" placeholder="Nom*" required>
                   <input type="email" placeholder="Email*" required>
-                  <input type="tel" placeholder="Téléphone*" required>
+                  <input type="tel" pattern="[0-9]{10}" placeholder="Téléphone*" required>
                   <input type="number" placeholder="Code Postal*" required>
+                  <span id="CGU-check"><input type="checkbox" name="CGU" required><label for="CGU" required>J'accèpte les <a href="https://www.bmw.fr/fr/footer/metanavigation/data-privacy.html" target="_blank">conditions générales d'utilisations</a></label></span>
                   <span id="submit-button"><input type="submit" value="Réserver mon essai" id="submit"></span>
                 </p>
               </form>

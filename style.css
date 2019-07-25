@@ -328,6 +328,17 @@ form input{
   padding-right: 150px;
 }
 
+#CGU-check{
+  font-size: 20pt;
+  color: black;
+  padding: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+#prenom :required{
+  content: "Veuillez saisir votre prénom";
+}
+
 /*footer*/
 
 footer{
