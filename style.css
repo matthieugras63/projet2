@@ -364,6 +364,10 @@ form input{
   color: blue;
 }
 
+#CGU:visited{
+  color:red;
+}
+
 /*footer*/
 
 footer{
