@@ -1,0 +1,34 @@
+@media
+screen and (max-width: 1100px),
+screen and (max-device-width:1100px){
+
+  .title-header h1{
+    font-size: 50pt;
+  }
+  .title-header h2{
+    font-size: 25pt;
+  }
+  .button{
+    visibility: hidden;
+  }
+
+  #resize-logo{
+    width: 18%;
+  }
+  section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  img{
+    margin-bottom: -4px;
+  }
+
+  .bloc-top img{
+    opacity:1;
+  }
+
+  .second-row h2{
+  display: block;
+}
+}

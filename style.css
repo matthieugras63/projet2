@@ -98,19 +98,12 @@ header img{
 /*The part below is for test in browser. As long as it is considered as a device width, we have to use "max-device-width" instead of "max-width" which correspond to browser window.
 Indeed, due to "80pt" font size, the button is "pushed" by the title*/
 
-@media screen and (max-device-width: 900px){
 
-  .title-header h1{
-    font-size: 50pt;
-  }
-}
 
 .title-header h2{
   font-size:59pt;
   margin:0;
 }
-
-
 
 #button-trial{
   border:none;
@@ -183,16 +176,20 @@ Finally, box-sizing + height:100% to let the div occupy the same space as the im
   box-sizing: border-box;
 }
 
+.seeMore{
+  display: none;
+}
+
 
 /*first-row*/
 
-.first-row h1{
+.first-row h2{
   font-size: 48pt;
   margin:0;
   font-weight: normal;
 }
 
-.first-row p{
+.first-row p, .text-appear p{
   font-size: 24pt;
 }
 
@@ -206,6 +203,13 @@ Finally, box-sizing + height:100% to let the div occupy the same space as the im
 }
 
 /*second-row*/
+
+.second-row h2{
+  font-size: 48pt;
+  margin:0;
+  font-weight: normal;
+  display: none;
+}
 
 .second-row-text{
   display: flex;
@@ -278,7 +282,7 @@ Finally, box-sizing + height:100% to let the div occupy the same space as the im
 
 
 /*Bloc text*/
-.third-row h1{
+.third-row h2{
   font-size: 48pt;
   margin:0;
   font-weight: normal;
@@ -411,3 +415,4 @@ a{
 .picto a{
 padding: 10px;
 }
+
