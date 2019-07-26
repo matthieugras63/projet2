@@ -176,6 +176,11 @@ Finally, box-sizing + height:100% to let the div occupy the same space as the im
   box-sizing: border-box;
 }
 
+.first-p{
+  font-size: 20pt;
+  margin: 0;
+}
+
 .seeMore{
   display: none;
 }
@@ -191,11 +196,6 @@ Finally, box-sizing + height:100% to let the div occupy the same space as the im
 
 .first-row p, .text-appear p{
   font-size: 24pt;
-}
-
-.first-row p:first-of-type{
-  font-size: 20pt;
-  margin: 0;
 }
 
 .first-row-text{
@@ -290,11 +290,6 @@ Finally, box-sizing + height:100% to let the div occupy the same space as the im
 
 .third-row p{
   font-size: 24pt;
-}
-
-.third-row p:first-of-type{
-  font-size: 20pt;
-  margin: 0;
 }
 
 .third-row-text{
