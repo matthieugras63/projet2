@@ -29,6 +29,14 @@ screen and (max-device-width:1100px){
   }
 
   .second-row h2{
-  display: block;
-}
+    display: block;
+  }
+
+  #seeMore-1, #seeMore-2, #seeMore-3{
+    display: block;
+  }
+
+  #text-appear-1, #text-appear-2, #text-appear-3{
+    display: none;
+  }
 }
