@@ -183,6 +183,12 @@ Finally, box-sizing + height:100% to let the div occupy the same space as the im
 
 #seeMore-1, #seeMore-2, #seeMore-3 {
   display: none;
+  border: none;
+  /*  background: none;*/
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 20pt;
+  width: 100%;
 }
 
 
@@ -411,6 +417,6 @@ a{
 }
 
 .picto a{
-padding: 10px;
+  padding: 10px;
 }
 
