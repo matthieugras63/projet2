@@ -222,8 +222,10 @@ Finally, box-sizing + height:100% to let the div occupy the same space as the im
   flex-direction: column;
   justify-content: center;
   align-items:center;
-  padding: 40px;
+}
 
+#text-appear-2{
+  padding: 60px;
 }
 
 .second-row article{
