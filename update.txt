@@ -19,3 +19,19 @@ Tue 07/23
 Wed 07/24
 
 - HTML / CSS nearly finished. Some miscellaneous updates are needed, like padding or link changes
+
+Thu 07/25
+
+- responsive model begun
+
+Fri 07/26
+
+- desktop version upgraded / ideas for mobile one
+
+Mon 07/29
+
+- Javascript set on place / mobile upgraded
+
+Tue 07/30
+
+- 
