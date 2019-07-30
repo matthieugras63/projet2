@@ -107,8 +107,10 @@ Indeed, due to "80pt" font size, the button is "pushed" by the title*/
 
 #button-trial{
   border:none;
+  color: black;
   background: white;
   padding: 0;
+  padding-right: 10px;
   margin: 0;
 }
 
