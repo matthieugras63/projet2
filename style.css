@@ -246,17 +246,17 @@ Finally, box-sizing + height:100% to let the div occupy the same space as the im
 }
 
 .space-between .text-left{
-  flex:11;
+  flex:15;
 }
 
 .space-between .text-right{
-  flex:4;
+  flex:8;
   justify-content: flex-end;
 }
 
 .border-top{
   border-top: 1px solid black;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .space-between p{
