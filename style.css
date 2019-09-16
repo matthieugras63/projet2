@@ -59,7 +59,6 @@ header img{
   flex:1;
 }
 
-
 #resize-logo{
   width: 8%;
   border:none;
@@ -81,6 +80,7 @@ header img{
   background-image: url(images/form.png);
   background-size: cover;
   background-position: center;
+  z-index:110;
 }
 
 .adjust-img{
@@ -152,7 +152,12 @@ Finally, box-sizing + height:100% to let the div occupy the same space as the im
   justify-content: flex-end;
   align-items: flex-end;
   flex:1;
-  padding-right: 72px;
+  position: absolute;
+  position: fixed;
+  right: 6vw;
+  bottom: 0;
+  background-color: white;
+  z-index: 100;
 }
 
 /*main*/
