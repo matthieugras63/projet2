@@ -2,291 +2,183 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="media.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato%7CPlayfair+Display&display=swap" rel="stylesheet">
-  <title>MCAR-MC1</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato%7CPlayfair+Display&display=swap" rel="stylesheet">
+    <title>MCAR-MC1</title>
 </head>
 
 <body>
-  <header>
-    <!-- global div to create fictionnal margin for next div -->
-    <div class="relative">
-      <div class="over-img">
-        <div class="logo">
-          <div id="resize-logo">
-            <img src="images/logo.png" id="logo-media" alt="MC1">
-          </div>
-        </div>
-        <div class="title-header">
-          <h1 class="playfair">Nouveau MCAR MC-I crossover</h1>
-          <h2 class="playfair">Affrontez tous les obstacles avec élégance</h2>
+    <header>
+        <!-- global div to create fictionnal margin for next div -->
+        <div class="relative">
+            <div class="over-img">
+                <div class="logo">
+                    <div id="resize-logo">
+                        <img src="images/logo.png" id="logo-media" alt="MC1">
+                    </div>
+                </div>
+                <div class="title-header">
+                    <h1 class="playfair">Nouveau MCAR MC-I crossover</h1>
+                    <h2 class="playfair">Affrontez tous les obstacles avec élégance</h2>
+                </div>
+            </div>
         </div>
         <div class="button">
-          <a href="#ancre" id="button-trial"><span class="button-header playfair"><span><img src="images/volant.png"></span>Demander un Essai</span></a>
+            <a href="#ancre" id="button-trial"><span class="button-header playfair"><span><img src="images/volant.png"></span>Demander un Essai</span></a>
         </div>
-      </div>
-    </div>
-  </header>
-  <!-- Première section, texte à gauche + image bmw1 -->
-  <main>
-    <section class="flex first-row">
-      <article>
-        <div class="first-row-text">
-          <h2 class="playfair">VISIONNAIRE SOUS TOUT LES ANGLES</h2>
-          <p class="playfair first-p">Style futuriste</p>
-          <input type="submit" value=" >>     Voir la suite    <<" onclick="seeMore1();" id="seeMore-1">
-          <div id="bloc1">
-            <div id="text-appear-1">
-              <p class="lato">La BMW i3 ne suit aucune tendance, elle est l'expression d'un style de vie assumé. Son
-                langage
-                stylistique futuriste lui confère également de la clarté à l'extérieur et une ambiance "lounge" à
-              l'intérieur.</p>
-              <p class="lato">Aménagée sous le ligne de la liberté, elle se démarque par l'emploi de matériaux durables
-                et
-              par une foison de détails fonctionnels. Une voiture novatrice qui mise sur l'individualité.</p>
-            </div>
-          </div>
-        </div>
-      </article>
-      <div class="first-row-img">
-        <img src="images/bmw1.png" alt="bmw front face">
-      </div>
-    </section>
-    <!-- Deuxième section, bmw2 + caractéristiques tech -->
-    <section class="flex second-row">
-      <div>
-        <img src="images/bmw2.png" alt="bmw back face">
-      </div>
-      <article>
-        <div class="second-row-text">
-          <h2 class="playfair" id="title-second-row">Caractéristiques techniques du véhicule</h2>
-          <input type="submit" value=" >>     Voir la suite    <<" onclick="seeMore2();" id="seeMore-2">
-          <div id="bloc2">
-            <div id="text-appear-2" class="second-row-text">
-              <div class="flex space-between">
-                <p class="lato text-left flex">Puissance du système en kW(ch) (225xe)</p>
-                <p class="lato text-right flex">165(224)</p>
-              </div>
-              <div class="flex space-between border-top">
-                <p class="lato text-left flex">Accélération de 0 à 100 km/h en s (225xe)</p>
-                <p class="lato text-right flex">6,7</p>
-              </div>
-              <div class="flex space-between border-top">
-                <p class="lato text-left flex">Consommation en cycle mixte en l/100 km (225xe)</p>
-                <p class="lato text-right flex">2,7-2,3(3)</p>
-              </div>
-              <div class="flex space-between border-top">
-                <p class="lato text-left flex">Émissions de CO2 en cycle mixte en g/km (225xe)</p>
-                <p class="lato text-right flex">61-52(3)</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </article>
-    </section>
-    <!-- troisième section, identique à la première pour l'organisation, avec 4 photos et effet hover-->
-    <section class="flex third-row">
-      <article>
-        <div class="third-row-text">
-          <h2 class="playfair">CONÇUE POUR L'EMOTION</h2>
-          <p class="playfair">Matériaux exclusifs</p>
-          <input type="submit" value=" >>     Voir la suite    <<" onclick="seeMore3();" id="seeMore-3">
-          <div id="bloc3">
-            <div id="text-appear-3">
-              <p class="lato">Chaque détail impressionne : alors qu'à l'extérieur, ce sont des peintures exceptionnelles
-                qui
-                mettent en valeur l'allure de la nouvelle BMW Série 8 Coupé, à l'intérieur, ce sont des matériaux
-                luxueux
-              associés à des surpiqûres contrastées élégantes et des éléments décoratifs</p>
-            </div>
-          </div>
-        </div>
-      </article>
-      <div>
-        <div class="bloc-top">
-          <a href="pictures_resize/carre1resize.png" target="_blank"><img src="pictures_resize/carre1.png"
-            alt="compteur"></a>
-            <a href="pictures_resize/carre2resize.png" target="_blank"><img src="pictures_resize/carre2.png"
-              alt="feux-arriere"></a>
-              <a href="pictures_resize/carre3resize.png" target="_blank"><img src="pictures_resize/carre3.png"
-                alt="jantes"></a>
-                <a href="pictures_resize/carre4resize.png" target="_blank"><img src="pictures_resize/carre4.png"
-                  alt="interieur"></a>
-                </div>
-              </div>
-            </section>
-            <!-- image + formulaire -->
-            <section class="last-row" id="ancre">
-              <div class="relative2">
-                <div class="over-img-last over-img">
-                  <div class="text-last-row">
-                    <p class="playfair">Réservez votre essai gratuit</p>
-                    <p class="playfair">Nouveau MCAR MC-I crossover</p>
-                  </div>
-                  <div class="form">
-                    <div class="form-div">
-                      <form action="https://gmail.us3.list-manage.com/subscribe/post" target="_blank" method="POST">
-                        <input type="hidden" name="u" value="6ebf53dfb0844da3ae9b1cbe8">
-                        <input type="hidden" name="id" value="7eaa9d53e2">
-                        <p>
-                          <input type="text" placeholder="Prénom*" name="PRENOM" id="PRENOM" required>
-                          <input type="text" placeholder="Nom*" name="NOM" id="NOM" required>
-                          <input type="email" placeholder="Email*" name="EMAIL" id="EMAIL" required>
-                          <input type="tel" pattern="[0-9]{10}" placeholder="Téléphone*" name="TELEPHONE" id="TELEPHONE"
-                          required>
-                          <input type="text" pattern="[0-9]{5}" placeholder="Code Postal*" name="CODEPOSTAL" id="CODEPOSTAL"
-                          required>
-                          <span id="CGU-check"><input type="checkbox" name="CGU" required><label for="CGU" required>J'accèpte les <a href="https://www.bmw.fr/fr/footer/metanavigation/data-privacy.html" target="_blank" id="CGU">conditions générales d'utilisations</a></label></span>
-                          <span id="submit-button"><input type="submit" value="Réserver mon essai" id="submit"></span>
-                        </p>
-                      </form>
+    </header>
+    <!-- Première section, texte à gauche + image bmw1 -->
+    <main>
+        <section class="flex first-row">
+            <article>
+                <div class="first-row-text">
+                    <h2 class="playfair">VISIONNAIRE SOUS TOUT LES ANGLES</h2>
+                    <p class="playfair first-p">Style futuriste</p>
+                    <input type="submit" value=" >>     Voir la suite    <<" onclick="seeMore1();" id="seeMore-1">
+                    <div id="bloc1">
+                        <div id="text-appear-1">
+                            <p class="lato">La BMW i3 ne suit aucune tendance, elle est l'expression d'un style de vie assumé. Son
+                                langage
+                                stylistique futuriste lui confère également de la clarté à l'extérieur et une ambiance "lounge" à
+                                l'intérieur.</p>
+                            <p class="lato">Aménagée sous le ligne de la liberté, elle se démarque par l'emploi de matériaux durables
+                                et
+                                par une foison de détails fonctionnels. Une voiture novatrice qui mise sur l'individualité.</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-            </section>
-          </main>
-          <!-- bloc footer -->
-          <footer>
-            <div class="links">
-              <div class="link1">
+            </article>
+            <div class="first-row-img">
+                <img src="images/bmw1.png" alt="bmw front face">
+            </div>
+        </section>
+        <!-- Deuxième section, bmw2 + caractéristiques tech -->
+        <section class="flex second-row">
+            <div>
+                <img src="images/bmw2.png" alt="bmw back face">
+            </div>
+            <article>
+                <div class="second-row-text">
+                    <h2 class="playfair" id="title-second-row">Caractéristiques techniques du véhicule</h2>
+                    <input type="submit" value=" >>     Voir la suite    <<" onclick="seeMore2();" id="seeMore-2">
+                    <div id="bloc2">
+                        <div id="text-appear-2" class="second-row-text">
+                            <div class="flex space-between">
+                                <p class="lato text-left flex">Puissance du système en kW(ch) (225xe)</p>
+                                <p class="lato text-right flex">165(224)</p>
+                            </div>
+                            <div class="flex space-between border-top">
+                                <p class="lato text-left flex">Accélération de 0 à 100 km/h en s (225xe)</p>
+                                <p class="lato text-right flex">6,7</p>
+                            </div>
+                            <div class="flex space-between border-top">
+                                <p class="lato text-left flex">Consommation en cycle mixte en l/100 km (225xe)</p>
+                                <p class="lato text-right flex">2,7-2,3(3)</p>
+                            </div>
+                            <div class="flex space-between border-top">
+                                <p class="lato text-left flex">Émissions de CO2 en cycle mixte en g/km (225xe)</p>
+                                <p class="lato text-right flex">61-52(3)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!-- troisième section, identique à la première pour l'organisation, avec 4 photos et effet hover-->
+        <section class="flex third-row">
+            <article>
+                <div class="third-row-text">
+                    <h2 class="playfair">CONÇUE POUR L'EMOTION</h2>
+                    <p class="playfair">Matériaux exclusifs</p>
+                    <input type="submit" value=" >>     Voir la suite    <<" onclick="seeMore3();" id="seeMore-3">
+                    <div id="bloc3">
+                        <div id="text-appear-3">
+                            <p class="lato">Chaque détail impressionne : alors qu'à l'extérieur, ce sont des peintures exceptionnelles
+                                qui
+                                mettent en valeur l'allure de la nouvelle BMW Série 8 Coupé, à l'intérieur, ce sont des matériaux
+                                luxueux
+                                associés à des surpiqûres contrastées élégantes et des éléments décoratifs</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <div>
+                <div class="bloc-top">
+                    <a href="pictures_resize/carre1resize.png" target="_blank"><img src="pictures_resize/carre1.png" alt="compteur"></a>
+                    <a href="pictures_resize/carre2resize.png" target="_blank"><img src="pictures_resize/carre2.png" alt="feux-arriere"></a>
+                    <a href="pictures_resize/carre3resize.png" target="_blank"><img src="pictures_resize/carre3.png" alt="jantes"></a>
+                    <a href="pictures_resize/carre4resize.png" target="_blank"><img src="pictures_resize/carre4.png" alt="interieur"></a>
+                </div>
+            </div>
+        </section>
+        <!-- image + formulaire -->
+        <section class="last-row" id="ancre">
+            <div class="relative2">
+                <div class="over-img-last over-img">
+                    <div class="text-last-row">
+                        <p class="playfair">Réservez votre essai gratuit</p>
+                        <p class="playfair">Nouveau MCAR MC-I crossover</p>
+                    </div>
+                    <div class="form">
+                        <div class="form-div">
+                            <form action="https://gmail.us3.list-manage.com/subscribe/post" target="_blank" method="POST">
+                                <input type="hidden" name="u" value="6ebf53dfb0844da3ae9b1cbe8">
+                                <input type="hidden" name="id" value="7eaa9d53e2">
+                                <p>
+                                    <input type="text" placeholder="Prénom*" name="PRENOM" id="PRENOM" required>
+                                    <input type="text" placeholder="Nom*" name="NOM" id="NOM" required>
+                                    <input type="email" placeholder="Email*" name="EMAIL" id="EMAIL" required>
+                                    <input type="tel" pattern="[0-9]{10}" placeholder="Téléphone*" name="TELEPHONE" id="TELEPHONE" required>
+                                    <input type="text" pattern="[0-9]{5}" placeholder="Code Postal*" name="CODEPOSTAL" id="CODEPOSTAL" required>
+                                    <span id="CGU-check"><input type="checkbox" name="CGU" required><label for="CGU" required>J'accèpte les <a href="https://www.bmw.fr/fr/footer/metanavigation/data-privacy.html" target="_blank" id="CGU">conditions générales d'utilisations</a></label></span>
+                                    <span id="submit-button"><input type="submit" value="Réserver mon essai" id="submit"></span>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- bloc footer -->
+    <footer>
+        <div class="links">
+            <div class="link1">
                 <h3 class="playfair">Univers MCAR</h3><br />
                 <ul class="lato">
-                  <li><a href="https://bmw-essai.bmw-hebergement.fr/inscription-newsletter" target="_blank">MCAR Newletter</a>
-                  </li>
-                  <li><a href="https://www.bmwgroup.com/en.html" target="_blank">MCAR Group</a></li>
-                  <li><a href="https://www.bmw.fr/fr/footer/footer-section/certification-iso-9001.html"
-                    target="_blank">Certification ISO 9001</a></li>
+                    <li><a href="https://bmw-essai.bmw-hebergement.fr/inscription-newsletter" target="_blank">MCAR Newletter</a>
+                    </li>
+                    <li><a href="https://www.bmwgroup.com/en.html" target="_blank">MCAR Group</a></li>
+                    <li><a href="https://www.bmw.fr/fr/footer/footer-section/certification-iso-9001.html" target="_blank">Certification ISO 9001</a></li>
                     <li><a href="https://communaute.bmw.fr/t5/Communaut%C3%A9-BMW-France/ct-p/17" target="_blank">FAQ</a></li>
-                    <li><a href="https://www.bmw.fr/fr/topics/univers/carriere/le-groupe-bmw-en-france.html"
-                      target="_blank">Carrières</a></li>
-                    </ul>
-                  </div>
-                  <div class="link2">
-                    <h3 class="playfair">Conditions générales d'utilisation</h3>
-                    <ul class="lato">
-                      <li><a href="https://www.bmw.fr/fr/footer/footer-section/cookie-policy.html" target="_blank">Cookies</a></li>
-                      <li><a href="https://www.bmw.fr/fr/topics/univers/technologies-bmw/consommation-emissions.html"
-                        target="_blank">Consommations et émissions</a></li>
-                        <li><a href="https://www.bmw.fr/fr/footer/footer-section/mentions-legales.html" target="_blank">Mentions
-                        légales</a></li>
-                        <li><a
-                          href="https://www.bmw.fr/content/dam/bmw/marketFR/bmw_fr/Footer/2014_04_09_Conditions_Generales_d_Achat_BMW_France_VF.pdf.asset.1513261321695.pdf"
-                          target="_blank">Conditions générales d'achat</a></li>
-                          <li><a href="https://www.bmw.fr/fr/footer/metanavigation/data-privacy.html" target="_blank">Protection des
-                          données</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="picto">
-                      <div class="linkpicto">
-                        <h3 class="playfair">Rejoignez-nous</h3>
-                        <a href="https://www.instagram.com/bmw/?hl=fr" target="_blank" class="insta"><img src="images/insta.png" alt="picto instagram"></a>
-                        <a href="https://fr.linkedin.com/company/bmw-group-france" target="_blank" class="linkedin"><img
-                          src="images/linkedIn.png" alt="picto linkedin"></a>
-                          <a href="https://twitter.com/BMWFrance?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"
-                          class="insta"><img src="images/twitter.png" alt="picto twitter"></a>
-                        </div>
-                      </div>
-                    </footer>
-                    <script>
+                    <li><a href="https://www.bmw.fr/fr/topics/univers/carriere/le-groupe-bmw-en-france.html" target="_blank">Carrières</a></li>
+                </ul>
+            </div>
+            <div class="link2">
+                <h3 class="playfair">Conditions générales d'utilisation</h3>
+                <ul class="lato">
+                    <li><a href="https://www.bmw.fr/fr/footer/footer-section/cookie-policy.html" target="_blank">Cookies</a></li>
+                    <li><a href="https://www.bmw.fr/fr/topics/univers/technologies-bmw/consommation-emissions.html" target="_blank">Consommations et émissions</a></li>
+                    <li><a href="https://www.bmw.fr/fr/footer/footer-section/mentions-legales.html" target="_blank">Mentions
+                            légales</a></li>
+                    <li><a href="https://www.bmw.fr/content/dam/bmw/marketFR/bmw_fr/Footer/2014_04_09_Conditions_Generales_d_Achat_BMW_France_VF.pdf.asset.1513261321695.pdf" target="_blank">Conditions générales d'achat</a></li>
+                    <li><a href="https://www.bmw.fr/fr/footer/metanavigation/data-privacy.html" target="_blank">Protection des
+                            données</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="picto">
+            <div class="linkpicto">
+                <h3 class="playfair">Rejoignez-nous</h3>
+                <a href="https://www.instagram.com/bmw/?hl=fr" target="_blank" class="insta"><img src="images/insta.png" alt="picto instagram"></a>
+                <a href="https://fr.linkedin.com/company/bmw-group-france" target="_blank" class="linkedin"><img src="images/linkedIn.png" alt="picto linkedin"></a>
+                <a href="https://twitter.com/BMWFrance?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="insta"><img src="images/twitter.png" alt="picto twitter"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
 
-
-                      function seeMore1(){
-                        var text1 = document.getElementById('text-appear-1').style.display;
-                        if(text1==""){
-                          text1="none"};
-                          if (text1 == "none") {
-                            document.getElementById('text-appear-1').style.display ="block";
-                            document.getElementById('seeMore-1').value="Masquer le texte";
-                            document.getElementById('bloc1').style.maxHeight="500px";
-                            document.getElementById('bloc1').style.transitionDuration="1000ms";
-                          }else{
-                            document.getElementById('text-appear-1').style.display="none";
-                            document.getElementById('seeMore-1').value=" >>     Voir la suite    <<";
-                            document.getElementById('bloc1').style.maxHeight="0px";
-                            document.getElementById('bloc1').style.transitionDuration="200ms";
-                          }
-                        }
-
-                        function seeMore2(){
-                          var text2 = document.getElementById('text-appear-2').style.display;
-                          if(text2==""){
-                            text2="none"};
-                            if (text2 == "none") {
-                              document.getElementById('text-appear-2').style.display ="block";
-                              document.getElementById('seeMore-2').value="Masquer le texte";
-                              document.getElementById('bloc2').style.maxHeight="500px";
-                              document.getElementById('bloc2').style.transitionDuration="1000ms";
-                            }else{
-                              document.getElementById('text-appear-2').style.display="none";
-                              document.getElementById('seeMore-2').value=" >>     Voir la suite    <<";
-                              document.getElementById('bloc2').style.maxHeight="0px";
-                              document.getElementById('bloc2').style.transitionDuration="200ms";
-                            }
-                          }
-
-                          function seeMore3(){
-                            var text3 = document.getElementById('text-appear-3').style.display;
-                            if(text3==""){
-                              text3="none"};
-                              if (text3 == "none") {
-                                document.getElementById('text-appear-3').style.display ="block";
-                                document.getElementById('seeMore-3').value="Masquer le texte";
-                                document.getElementById('bloc3').style.maxHeight="500px";
-                                document.getElementById('bloc3').style.transitionDuration="1000ms";
-                              }else{
-                                document.getElementById('text-appear-3').style.display="none";
-                                document.getElementById('seeMore-3').value=" >>     Voir la suite    <<";
-                                document.getElementById('bloc3').style.maxHeight="0px";
-                                document.getElementById('bloc3').style.transitionDuration="200ms";
-
-                              }
-                            }
-
-                            var mql = window.matchMedia("(min-width : 1100px)");
-
-                            function displayText1(test){
-                              if (test.matches){
-                                document.getElementById('text-appear-1').style.display ="block";
-                              }else{
-                                document.getElementById('text-appear-1').style.display ="none";
-                              }
-                            }
-
-                            function displayText2(test2){
-                              if (test2.matches){
-                                document.getElementById('text-appear-2').style.display ="block";
-                              }else{
-                                document.getElementById('text-appear-2').style.display ="none";
-                              }
-                            }
-
-                            function displayText3(test3){
-                              if (test3.matches){
-                                document.getElementById('text-appear-3').style.display ="block";
-                              }else{
-                                document.getElementById('text-appear-3').style.display ="none";
-                              }
-                            }
-
-                            function displayText4(test4){
-                              if (test4.matches) {
-                                document.getElementById('title-second-row').style.display ="none";
-                                document.getElementById('bloc2').style.maxHeight="100%";
-                              } else{
-                                document.getElementById('title-second-row').style.display = "block";
-                              }
-                            }
-
-
-                            mql.addListener(displayText1);
-                            mql.addListener(displayText2);
-                            mql.addListener(displayText3);
-                            mql.addListener(displayText4);
-
-                          </script>
-                        </body>
-                        </html>
+</html>
