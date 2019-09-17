@@ -353,7 +353,7 @@ form p {
 }
 
 form input {
-    font-size: 1.5vw;
+    font-size: 3vw;
     padding: 15px;
     margin-bottom: 30px;
     border: none;
@@ -365,7 +365,7 @@ form input {
 }
 
 #submit {
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-weight: bold;
     background: black;
     color: white;
@@ -402,10 +402,15 @@ form input {
 }
 
 #CGU-check {
-    font-size: 1vw;
+    font-size: 2vw;
     color: black;
     padding: 10px;
     font-family: 'Playfair Display', serif;
+}
+
+#CGU-check input{
+  width: 30px;
+  height: 30px;
 }
 
 #CGU {
