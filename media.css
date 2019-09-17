@@ -2,16 +2,13 @@
 screen and (max-device-width:1100px) {
 
     .title-header h1 {
-        font-size: 50pt;
+        font-size: 4vw;
     }
 
     .title-header h2 {
-        font-size: 25pt;
+        font-size: 6vw;
     }
 
-    .button {
-        visibility: hidden;
-    }
 
     #resize-logo {
         width: 18%;
@@ -94,13 +91,27 @@ screen and (max-device-width:1100px) {
         padding-bottom: 40px;
     }
 
+    .text-last-row h2,
+    .first-row-text h2,
+    .second-row-text h2,
+    .third-row-text h2{
+        font-size: 6vw;
+    }
+
+    .text-last-row p,
+    .first-row-text p,
+    .second-row-text p,
+    .third-row-text p{
+        font-size: 4vw;
+    }
+
     .text-last-row p {
-        font-size: 20pt;
+        font-size: 2vw;
         text-align: center;
     }
 
     .text-last-row p:first-of-type {
-        font-size: 35pt;
+        font-size: 3vw;
         padding: 10px;
         text-shadow: 3px 1px 2px rgb(86, 109, 22);
     }
@@ -118,7 +129,7 @@ screen and (max-device-width:1100px) {
     }
 
     #submit {
-        font-size: 20pt;
+        font-size: 2vw;
         padding: 5px;
     }
 

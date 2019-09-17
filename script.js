@@ -24,7 +24,7 @@ function seeMore2() {
     if (text2 == "none") {
         document.getElementById('text-appear-2').style.display = "block";
         document.getElementById('seeMore-2').value = "Masquer le texte";
-        document.getElementById('bloc2').style.maxHeight = "500px";
+        document.getElementById('bloc2').style.maxHeight = "580px";
         document.getElementById('bloc2').style.transitionDuration = "1000ms";
     } else {
         document.getElementById('text-appear-2').style.display = "none";
